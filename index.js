@@ -1,2 +1,1 @@
-var myObj = { firsname : "John", lastname : "Doe" };
-console.log(myObj);
+log(0.5)
