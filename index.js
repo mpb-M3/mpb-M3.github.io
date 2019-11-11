@@ -5,11 +5,6 @@ $(document).ready(function(e) {
  • Webpages in a database/more editable version
  • Add cookies to track previous commands? (You can press up and down to browse previous commands this session)
 */
-   var faviconnumber = 1;
-	function favicon() {
-		favicon = favicon == 1 ? 2 : 1;
-		$('.favicon').attr('href','favicon' + favicon + ".png");
-	}
    console.clear();
    var commandlist = [ /*Can be populated with various methods*/
       ["/help", "Show commands"],
@@ -61,7 +56,6 @@ $(document).ready(function(e) {
       log("Website", "");
 	  urlvars();
       log("Client", "For help say '/help'");
-	  setInterval(favicon,500);
    }
 
    function urlvars() {
